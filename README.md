@@ -5,9 +5,9 @@ SeatMap è un'applicazione per la gestione e la prenotazione delle postazioni (s
 ## 🚀 Tecnologie Utilizzate
 
 ### Back-End
-- **Java** con framework Spring Boot
-- ** JPA** per la persistenza dei dati
-- **PostgreSQL** (Database relazionale)
+- Java con framework Spring Boot
+- JPA per la persistenza dei dati
+- PostgreSQL (Database relazionale)
 
 ### Front-End
 - **Angular**
