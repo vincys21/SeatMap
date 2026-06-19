@@ -1,13 +1,13 @@
 # SeatMap 🗺️
 
-SeatMap è un'applicazione per la gestione e la prenotazione delle postazioni (scrivanie/desk) all'interno degli uffici. Il progetto include un back-end robusto in Java e un front-end reattivo sviluppato in Angular.
+SeatMap è un'applicazione per la gestione e la prenotazione delle postazioni (scrivanie/desk) all'interno degli uffici. Il progetto include un back-end in Java e un front-end reattivo sviluppato in Angular.
 
 ## 🚀 Tecnologie Utilizzate
 
 ### Back-End
-- **Java** con framework Spring Boot (o Maven)
-- **Hibernate / JPA** per la persistenza dei dati
-- **PostgreSQL / MySQL** (Database relazionale)
+- **Java** con framework Spring Boot
+- ** JPA** per la persistenza dei dati
+- **PostgreSQL** (Database relazionale)
 
 ### Front-End
 - **Angular**
@@ -20,8 +20,8 @@ SeatMap è un'applicazione per la gestione e la prenotazione delle postazioni (s
 
 ## 📁 Struttura del Repository
 
-- `seatmap/`: Contiene l'applicazione back-end Java.
-- `ProjectSeatMap/`: Contiene l'applicazione front-end Angular.
+- `BackEnd/`: Contiene l'applicazione back-end Java.
+- `FrontEnd/`: Contiene l'applicazione front-end Angular.
 - `docker-compose.yml`: File di configurazione per avviare i servizi (es. database).
 - `dbbackup.sql`: Backup iniziale o dump del database per il test.
 
@@ -54,7 +54,7 @@ docker compose up -d
 ### 4. Avviare il Front-End (Angular)
 1. Apri un nuovo terminale ed entra nella cartella del front-end:
    ```bash
-   cd ProjectSeatMap
+   cd FrontEnd
    ```
 2. Installa le dipendenze:
    ```bash
